@@ -1,0 +1,230 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../public/assets/scss/theme.scss';
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// @import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+// @import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+@import '../public/assets/scss/colorvariables';
+
+:root{
+    --text-white: #{$text-white};
+    --text-black: #{$text-black};
+    --primary: #{$primary-color};
+    --text-dark44: #444444;
+    --text-gray: #cbc5b9;
+    --k2dFont: #{$k2dFont};
+}
+
+// 2. Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// 3. Global Styles
+html {  
+  scroll-behavior: smooth;
+}
+
+body{    
+    font-optical-sizing: auto;    
+    font-style: normal;
+}
+
+.k2dFont{
+    font-family: var(--k2dFont) !important;
+}
+
+.mainContent{
+    min-height: calc(100vh - 100px);
+    padding-top: 110px;
+}
+
+.text-gray{
+  color: var(--text-gray);
+}
+
+.btn{
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+  &.btnEmpty{
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+  &.btn-h45{
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    // @media (max-width: 576px) {
+    //   height: 40px;
+    //   line-height: 40px;
+    //   padding: 0 15px;
+    // }
+  }
+  &.btn-h55{
+    height: 55px;
+    line-height: 55px;
+    padding: 0 30px;
+    @media (max-width: 576px) {
+      height: 45px;
+      line-height: 45px;
+      padding: 0 20px;
+    }
+  }
+  &.btnIconTxt{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+.btn.btn-primary{
+  color: var(--text-white);
+  &:hover,&:focus,&:active{
+    background-color: color-mix(in srgb, $primary 30%, transparent); 
+    color: var(--text-white);
+  } 
+}
+
+.btn.btn-outline-primary{
+  color: var(--text-white);
+  border: 2px solid var(--primary);
+  &:hover,&:focus,&:active{
+    background-color: color-mix(in srgb, $primary 30%, transparent);     
+    color: var(--text-white);
+  } 
+}
+.langDropdown{
+  background-color: var(--primary);
+  .dropdown-item{
+    color: var(--text-white);
+    font-weight: 15px;
+    font-weight: 500;
+    &:hover{
+      background-color: rgba(0, 0, 0, 0.2);   
+      color: var(--text-white);   
+    }
+  }
+}
+// modal style
+.mymodal{
+  .modal-content{
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.46);
+    backdrop-filter: blur(6px);    
+    @media (max-width: 576px) {
+      border-radius: 15px;
+    }
+    .modal-header{
+      border: 0;
+      justify-content: center;
+      .modal-title{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 auto;
+      }
+      .btn-close{
+        margin: 0;
+      }
+      
+    }
+  }
+}
+.modal-backdrop{
+  background-color: #2B2727;
+}
+
+/* Very small screens (e.g., smartphones) */
+@media screen and (max-width: 575px) {
+    /* Styles for very small screens */
+  }
+  
+  /* Small screens (e.g., smartphones, tablets) */
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    /* Styles for small screens */
+  }
+  
+  /* Medium screens (e.g., tablets, small laptops) */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles for medium screens */
+  }
+  
+  /* Large screens (e.g., laptops, desktops) */
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for large screens */
+  }
+  @media screen and (max-width: 1299px) {
+    .container{
+        max-width: 100%;
+    }
+  }
+  /* Extra large screens (e.g., large desktops, TVs) */  
+  @media screen and (min-width: 1200px) {
+    /* Styles for extra large screens */
+    .container{
+        max-width: 1200px;
+    };
+  }
+  
+  /* Common variations: */
+  
+  /* Targeting landscape orientation for mobile devices */
+  @media screen and (max-width: 767px) and (orientation: landscape) {
+    /* Styles for mobile landscape */
+  }
+  
+  /* Targeting portrait orientation for mobile devices */
+  @media screen and (max-width: 767px) and (orientation: portrait) {
+    /* Styles for mobile portrait */
+  }
+  
+  /* Targeting tablets specifically */
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+    /* Tablet Styles */
+  }
+  
+  /* Targeting landscape tablets specifically */
+  @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Landscape tablet styles */
+  }
+  
+  /* Targeting portrait tablets specifically */
+  @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    /* Portrait tablet styles */
+  }
+  
+  /* High-resolution displays (Retina) */
+  @media
+    screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi) {
+    /* Styles for high-resolution displays */
+  }
+  
+  /* Using em units for better accessibility */
+  @media screen and (min-width: 36em) { /* 36em = 576px, assuming 16px base font */
+    /* Styles for small screens */
+  }
+  
+  @media screen and (min-width: 48em) { /* 48em = 768px */
+    /* Styles for medium screens */
+  }
+  
+  @media screen and (min-width: 62em) { /* 62em = 992px */
+    /* Styles for large screens */
+  }
+  
+  @media screen and (min-width: 75em) { /* 75em = 1200px */
+    /* Styles for extra large screens */
+  }
+  
+  /* Example of targeting a dark color scheme*/
+  @media (prefers-color-scheme: dark) {
+    /* Styles for dark mode */
+  }

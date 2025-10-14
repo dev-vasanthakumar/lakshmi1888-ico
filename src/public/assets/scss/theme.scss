@@ -1,0 +1,21 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+$prefix: ukThemes;
+$body-bg: #5E082B;
+$body-color: #FFFFFF;
+$primary: #CF4C82;
+$danger: #ff4136;
+$border-radius: .25rem;
+$border-width: 1px;
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: "Inter", sans-serif;
+
+// stylelint-enable value-keyword-case
+$font-family-base:  var(--#{$prefix}font-sans-serif);
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger
+);
+
+
+@import './common.scss';

@@ -1,0 +1,20 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="modalTitleId">Select Token</h5>
+  <button type="button" class="btn-close btn btnEmpty text-white" (click)="bsModalRef.hide()">
+        <i class="bi bi-x-lg"></i>
+  </button>
+</div>
+<div class="modal-body">
+    <div class="tokenList">
+        <ul>
+            @for(item of tokenList; track item){
+            <li>
+                <button class="btn btnToken" [ngClass]="{selected: item.selected}">
+                    <img src="{{item.img}}" alt="tokenIcon" class="img-w34" />
+                    <span>{{item.name}}</span>
+                </button>
+            </li>
+            }
+        </ul>
+    </div>
+</div>

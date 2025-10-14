@@ -1,0 +1,44 @@
+footer{
+    position: relative;
+    border-top: 2px solid #cf4c82;
+    background: #4F0A27;
+    box-shadow: 0px -1.59px 111.47px #5e082b;
+    padding-top: 30px;
+}
+.footerLogo{
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    img{
+        filter: drop-shadow(0px 3.33px 78.31px rgba(0,0,0,0.45));
+    }
+}
+.ullist{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+    li{        
+        a{
+           font-size: 16px;
+            font-weight: 500;
+            line-height: 21.50px;          
+            color: var(--text-white);
+            text-decoration: none;
+            &:hover{
+                color: var(--primary);                
+            }
+        }
+    }
+}
+
+.copytxt{
+font-size: 14px;
+font-weight: 500;
+text-transform: capitalize;
+line-height: 100%;
+color: var(--text-white);
+}
+

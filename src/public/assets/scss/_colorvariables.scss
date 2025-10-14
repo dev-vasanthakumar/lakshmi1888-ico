@@ -1,0 +1,33 @@
+$primary-color: #CF4C82;
+$text-white: #FFFFFF;
+$text-black: #000000;
+$k2dFont: "K2D", sans-serif;
+
+
+@mixin d-flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+@mixin d-flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin d-flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.d-flex-start {
+    @include d-flex-start;
+}
+.d-flex-between {
+    @include d-flex-between;
+} 
+.d-flex-around {
+    @include d-flex-around;
+}

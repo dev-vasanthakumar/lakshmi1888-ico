@@ -1,0 +1,146 @@
+$font-size-min: 10;
+$font-size-max: 100;
+$font-weight-min: 100;
+$font-weight-max: 900;
+
+$flexgap-min: 2;
+$flexgap-max: 100;
+
+// Generate font size styles
+@for $size from $font-size-min through $font-size-max {
+  .fs-#{$size} {
+    font-size: #{$size}px;
+  }
+}
+
+// Generate font weight styles
+// @for $weight from $font-weight-min through $font-weight-max {
+//   .fw-#{$weight} {
+//     font-weight: $weight;
+//   }
+// }
+@for $i from 1 through 9 {
+    .fw-#{$i * 100} {
+      font-weight: $i * 100;
+    }
+  }
+
+@for $gap from $flexgap-min through $flexgap-max {
+    .g-#{$gap} {
+      gap: #{$gap}px;
+    }
+}
+
+$sizes: 200;
+
+@mixin margin-classes {
+  @for $i from 1 through $sizes {
+     $margin: $i * 1px;
+    /* margin #{$margin} */
+    .m#{$i}  {margin: $margin !important;}
+    .ml#{$i} {margin-left: $margin !important;}
+    .mr#{$i} {margin-right: $margin !important;}
+    .mt#{$i} {margin-top: $margin !important;}
+    .mb#{$i} {margin-bottom: $margin !important;}
+    .mx#{$i} {margin-left: $margin !important; margin-right: $margin !important;}
+    .my#{$i} {margin-top: $margin !important; margin-bottom: $margin !important;}
+  }
+}
+@include margin-classes;
+
+
+@mixin padding-classes {
+  @for $i from 1 through $sizes {
+    $padding: $i * 1px;
+    /* padding #{$padding} */
+    .p#{$i} {padding: $padding !important;}
+    .pl#{$i} {padding-left: $padding !important;}
+    .pr#{$i} {padding-right: $padding !important;}
+    .pt#{$i} {padding-top: $padding !important;}
+    .pb#{$i} {padding-bottom: $padding !important;}
+    .px#{$i} {padding-left: $padding !important; padding-right: $padding !important;}
+    .py#{$i} {padding-top: $padding !important; padding-bottom: $padding !important;}
+  }
+}
+@include padding-classes;
+
+
+// 1. Variables
+$container-width: 1200px;
+$spacing: 1rem;
+
+// 2. Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// 3. Global Styles
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+// body {
+//   font-family: $font-stack;
+//   line-height: 1.6;
+//   color: #333;
+//   background-color: #fff;
+// }
+
+// 4. Typography with Nesting
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: $spacing;
+  font-weight: 600;
+
+  @media (max-width: 576px) {
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+  }
+}
+
+// 5. Mixin for Buttons
+// @mixin button($bg-color, $text-color) {
+//   display: inline-block;
+//   padding: 0.75rem 1.5rem;
+//   font-size: 1rem;
+//   border: none;
+//   border-radius: 4px;
+//   cursor: pointer;
+//   background-color: $bg-color;
+//   color: $text-color;
+//   transition: background-color 0.3s ease, transform 0.2s ease;
+
+//   &:hover {
+//     background-color: darken($bg-color, 10%);
+//     transform: translateY(-2px);
+//   }
+// }
+
+// .btn-primary {
+//   @include button($primary, #fff);
+// }
+
+// 6. Container with Nesting
+.container {
+  width: 90%;
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 $spacing;
+
+  @media (max-width: 768px) {
+    width: 95%;
+  }
+}
+
+// 7. Responsive Design
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  // .flex {
+  //   flex-direction: column;
+  // }
+}

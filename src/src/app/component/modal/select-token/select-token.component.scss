@@ -1,0 +1,46 @@
+.tokenList{
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            margin-bottom: 5px;
+        }
+    }
+}
+.btnToken{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+    padding: 15px 11px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 0;
+    transition: background-color 0.3s linear;    
+    cursor: pointer;        
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--text-gray);
+    img{
+        width: 34px;
+        height: 34px;
+    }
+    &.selected, &:hover{        
+        color: var(--text-white);
+        background-color: rgba(112, 112, 112, 0.46);        
+    }
+}
+
+.img-w34{
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+}
+
+::ng-deep{
+    @media (min-width: 576px) {
+        .modal-sm.selectTokenmodal {
+            --ukThemesmodal-width: 368px;
+        }
+    }
+}
