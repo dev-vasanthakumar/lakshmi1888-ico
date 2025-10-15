@@ -16,25 +16,29 @@
       no-repeat top right;
     background-size: cover;
     z-index: -1;
+    @media (max-width: 991px) {
+      background-color: rgba(0, 0, 0, 0.2);
+      background-blend-mode: overlay;
+    }
   }
   .bannerTitle {
     font-family: var(--k2dFont);
-    font-size: 86px;
+    font-size: clamp(40px, calc(-2.529695px + 7.383628vw), 86px);
     font-weight: 700;
-    line-height: 95.5px;
+    line-height: clamp(50px, calc(7.932584px + 7.303371vw), 95.5px);
     color: var(--text-white);
     margin-bottom: 10px;
   }
   .bannerTxt {
-    font-size: 18px;
+    font-size: clamp(16px, calc(14.150883px + 0.321027vw), 18px);
     font-weight: 500;
-    line-height: 32px;
+    line-height: clamp(24px, calc(16.603531px + 1.284109vw), 32px);
     text-transform: capitalize;
     color: #ffffff;
     max-width: 615px;
   }
   .addressTxt {
-    font-size: 18px;
+    font-size: clamp(16px, calc(14.150883px + 0.321027vw), 18px);
     font-weight: 600;
     line-height: 21.5px;
     text-transform: capitalize;
@@ -55,7 +59,7 @@
       rgba(255, 255, 255, 0.1) 100%
     );
     backdrop-filter: blur(9.95px);
-    font-size: 16px;
+    font-size: clamp(14px, calc(12.150883px + 0.321027vw), 16px);
     font-weight: 600;
     margin-bottom: 96px;
   }
@@ -68,6 +72,10 @@
   gap: 30px;
   justify-content: center;
   position: relative;
+  @media (max-width: 991px) {
+    flex-direction: column;
+    text-align: center;
+  }
   &::before {
     content: "";
     background: linear-gradient(
@@ -125,21 +133,21 @@
   }
   h2 {
     font-family: "K2D";
-    font-size: 45px;
+    font-size: clamp(28px, calc(12.282504px + 2.728732vw), 45px);
     font-weight: 800;
-    line-height: 61.15px;
+    line-height: clamp(50px, calc(39.691172px + 1.789727vw), 61.15px);
     text-transform: capitalize;
     color: #ffffff;
     &.fs-36 {
-      font-size: 36px;
-      line-height: 57.2px;
+      font-size: clamp(24px, calc(12.905297px + 1.926164vw), 36px);
+      line-height: clamp(46px, calc(35.644944px + 1.797753vw), 57.2px);
       text-transform: uppercase;
     }
   }
   p {
-    font-size: 16px;
+    font-size: clamp(14px, calc(12.150883px + 0.321027vw), 16px);
     font-weight: 400;
-    line-height: 30px;
+    line-height: clamp(24px, calc(18.452648px + 0.963082vw), 30px);
     text-transform: capitalize;
     color: #ffffff;
   }
@@ -197,7 +205,7 @@
   padding: 24px 28px 22px;
   text-align: center;
   max-width: 272px;
-  margin-bottom: 34px;
+  margin: 0 auto 34px;
   .icon {
     margin-bottom: 12px;
   }
@@ -226,9 +234,9 @@
   position: relative;
 
   p {
-    font-size: 23px;
+    font-size: clamp(18px, calc(13.377207px + 0.802568vw), 23px);
     font-weight: 600;
-    line-height: 37.6px;
+    line-height: clamp(30px, calc(22.973355px + 1.219904vw), 37.6px);
     text-transform: capitalize;
     padding: 28px 15px;
     text-align: center;
@@ -320,6 +328,7 @@
     line-height: 22.93px;
     text-transform: capitalize;
     color: #ffffff;
+    word-break: break-all;
   }
 }
 
@@ -430,18 +439,18 @@
 .roadmpaWizard {
   .rmPhaseTit {
     font-family: var(--k2dFont);
-    font-size: 24px;
+    font-size: clamp(18px, calc(12.452648px + 0.963082vw), 24px);
     font-weight: 800;
-    line-height: 37.2px;
+    line-height: clamp(30px, calc(23.343178px + 1.155698vw), 37.2px);
     text-transform: uppercase;
     color: #ffffff;
     // white-space: nowrap;
     max-width: 257px;
     span {
       font-family: var(--k2dFont);
-      font-size: 40px;
+      font-size: clamp(30px, calc(20.754414px + 1.605136vw), 40px);
       font-weight: 800;
-      line-height: 57.2px;
+      line-height: clamp(46px, calc(35.644944px + 1.797753vw), 57.2px);
       text-transform: uppercase;
       color: #ffffff;
       display: block;
@@ -456,9 +465,16 @@
   display: flex;
   align-items: center;
   justify-content: start;
+  @media (max-width: 991px) {
+    justify-content: center;
+  }
   .rmPhaseImg {
     position: absolute;
     right: -50px;
+    @media (max-width: 991px) {
+      position: unset;
+      right: 0px;
+    }
   }
 }
 
@@ -469,14 +485,23 @@
   align-items: center;
   justify-content: start;
   flex-direction: row-reverse;
+   @media (max-width: 991px) {
+    justify-content: center;
+  }
   .rmPhaseImg {
     position: relative;
     //     right: auto;
     left: -100px;
+    @media (max-width: 991px) {
+      left: 0px;
+    }
   }
   .rmPhaseTit {
     position: absolute;
     right: 0;
+     @media (max-width: 991px) {
+      position: unset;
+     }
   }
 }
 
@@ -489,6 +514,9 @@
   .rmPhaseImg {
     position: absolute;
     right: -50px;
+    @media (max-width: 767px) {
+      right: 0px;
+    }
   }
 }
 
@@ -529,6 +557,20 @@
       border-left: 23.89px solid transparent;
       border-right: 23.89px solid #cf4c82;
     }
+    @media (max-width: 991px) {
+      margin: 0 auto 45px;
+      &::before {
+        content: "";
+        position: absolute;
+        top: -11%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-top: 14.33px solid transparent;
+        border-bottom: 14.33px solid #cf4c82;
+        border-left: 23.89px solid transparent;
+        border-right: 23.89px solid transparent;
+      }
+    }
   }
   &.rmRightBx {
     max-width: 454px;
@@ -544,6 +586,21 @@
       border-bottom: 14.33px solid transparent;
       border-right: 23.89px solid transparent;
       border-left: 23.89px solid #cf4c82;
+    }
+     @media (max-width: 991px) {
+      margin: 0 auto 45px;
+      &::after {
+        content: "";
+        position: absolute;
+        top: -11%;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        border-top: 14.33px solid transparent;
+        border-bottom: 14.33px solid #cf4c82;
+        border-left: 23.89px solid transparent;
+        border-right: 23.89px solid transparent;
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-expand-lg mynavbar fixed-top">
+  <nav class="navbar navbar-expand-xl mynavbar fixed-top">
     <div class="container">
       <a class="navbar-brand" [routerLink]="['/']">
         <!-- <img src="assets/images/header/logo.png" alt="logo" class="img-fluid" width="89" height="89" /> -->
@@ -7,7 +7,7 @@
         <span class="text-white k2dFont d-none d-sm-inline-block"> LAKSHMI1888 </span></a
       >
       <button
-        class="navbar-toggler customtoggler"
+        class="navbar-toggler customtoggler ms-auto"
         type="button"
         (click)="isCollapsed = !isCollapsed"
         [ngClass]="{ open: !isCollapsed }"
@@ -61,7 +61,7 @@
             >
           </li>
         </ul>
-        <span class="navbar-text py-0 d-flex-start g-7">
+        <span class="navbar-text py-0 d-flex-start flex-column flex-xl-row g-7 align-items-start">
           <div dropdown class="d-inline-block position-relative">
             <button
               dropdownToggle
