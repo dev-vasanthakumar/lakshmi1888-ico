@@ -1,5 +1,5 @@
 {
-  "name": "project1",
+  "name": "lakshmi1888",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -17,6 +17,8 @@
     "@angular/platform-browser": "^19.2.0",
     "@angular/platform-browser-dynamic": "^19.2.0",
     "@angular/router": "^19.2.0",
+    "@ngx-translate/core": "^17.0.0",
+    "@ngx-translate/http-loader": "^17.0.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
     "highcharts": "^12.1.2",

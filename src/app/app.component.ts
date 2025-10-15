@@ -1,16 +1,24 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { setTheme } from 'ngx-bootstrap/utils';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [RouterOutlet, TranslateModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
-  title = 'project1';
-  constructor() {
+  constructor(private translate: TranslateService) {
     setTheme('bs5');
+
+    translate.addLangs(['en', 'zh', 'ko', 'ja', 'vi', 'tl', 'pt', 'es']);
+    translate.setDefaultLang('en');
+
+    const savedLang = localStorage.getItem('lang');
+    translate.use(savedLang || 'en');
   }
 }

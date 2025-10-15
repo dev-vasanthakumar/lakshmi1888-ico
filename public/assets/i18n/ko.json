@@ -1,0 +1,86 @@
+{
+  "HEADING_HOME": "홈",
+  "HEADING_ABOUT": "소개",
+  "HEADING_TOKENOMICS": "토크노믹스",
+  "HEADING_ROADMAP": "로드맵",
+  "HEADING_WHITEPAPER": "백서",
+  "HEADING_BUY": "LUCK888 구매",
+  "BANNER": {
+    "TITLE": "#LAKSHMI1888 암호화폐",
+    "DESCRIPTION": "여신 락슈미에서 영감을 받은 $LUCK888과 함께 번영과 정신적 성장을 경험하세요. 물질적 부와 내적 번영을 모두 누릴 수 있는 Lakshmi 암호화폐 – 시대를 초월한 가치와 목적 있는 성장을 반영한 토큰입니다.",
+    "CONTRACT_LABEL": "$ LUCK888 토큰 계약 주소"
+  },
+  "TOKEN_LISTING": {
+    "TITLE": "토큰 상장",
+    "MESSAGE": "토큰은 10월 16일 USZ 거래소에 상장될 예정입니다"
+  },
+  "ABOUT": {
+    "SECTION_TITLE": "LUCK888 소개",
+    "FEATURES_TITLE": "혁신적인 특징",
+    "DESCRIPTION": "여신 락슈미에서 영감을 받은 LUCK888과 함께 번영과 정신적 성장을 경험하세요. 물질적 부와 내적 번영을 모두 누릴 수 있는 Lakshmi 토큰!",
+    "BOTTOM_TEXT": "강화된 기능을 갖춘 $LUCK888은 투자자에게 단순한 흥분 이상의 가치를 제공합니다",
+    "FEATURES": {
+      "SECURITY": "안전성",
+      "BLOCKCHAIN": "블록체인 플랫폼",
+      "FEES": "낮은 수수료",
+      "USABILITY": "사용하기 쉬움"
+    }
+  },
+  "TOKENOMICS": {
+    "TITLE": "토크노믹스 및 토큰 분배",
+    "SUBTITLE": "토큰 세부 정보",
+    "CONTRACT_LABEL": "$ LUCK888 토큰 계약 주소",
+    "DISTRIBUTION": {
+      "PRESALE": "사전 판매 후",
+      "CREATOR": "창작자",
+      "STAKING": "스테이킹",
+      "LIQUIDITY": "유동성",
+      "CHARITY": "자선"
+    },
+    "DETAILS": {
+      "NAME": "토큰 이름",
+      "SYMBOL": "토큰 심볼",
+      "SUPPLY": "토큰 공급량",
+      "NETWORK": "네트워크"
+    }
+  },
+  "ROADMAP": {
+    "TITLE": "로드맵",
+    "DESCRIPTION": "웹사이트 시작, 커뮤니티 참여 촉진, 토큰 유틸리티 통합, 거래소 상장, 파트너십 확대, 글로벌 채택 촉진.",
+    "PHASES": {
+      "PHASE1": {
+        "TITLE": "기초 구축 및 토큰 출시",
+        "POINTS": [
+          "프로젝트 설계, 백서 및 토크노믹스 완료.",
+          "Lakshmi 암호화폐($LUCK) BNB 체인에 출시. 정신적 커뮤니티 및 자선 단체와 전략적 파트너십 구축."
+        ]
+      },
+      "PHASE2": {
+        "TITLE": "플랫폼 출시 및 게임 베타",
+        "POINTS": [
+          "핵심 기능을 갖춘 Divine Tokens 플랫폼 출시.",
+          "$LUCK를 활용한 플레이 투 언(P2E) 게임 베타 출시.",
+          "인터랙티브 게임을 통해 교육 콘텐츠와 신앙 스토리 제공."
+        ]
+      },
+      "PHASE3": {
+        "TITLE": "생태계 확장 및 추가 신성 토큰",
+        "POINTS": [
+          "기타 신성 토큰 출시.",
+          "이 토큰들을 생태계에 통합하여 정신적 참여 강화.",
+          "고급 NFT 기능과 게임 내 캐릭터 업그레이드 도입."
+        ]
+      }
+    }
+  },
+  "WHITEPAPER": {
+    "TITLE": "백서",
+    "DOWNLOAD": "백서 다운로드"
+  },
+  "COMMUNITY": {
+    "MISSION": "LUCK888 토큰의 사명",
+    "JOIN": "LUCK888 커뮤니티 참여",
+    "DESCRIPTION": "Lakshmi 암호화폐($LUCK888)는 Divine Tokens 생태계의 핵심으로, 정신적 풍요와 재정적 권한을 상징합니다. 신앙과 금융을 연결하는 거래를 원활하게 제공합니다."
+  },
+  "BUY": "LUCK888 구매"
+}

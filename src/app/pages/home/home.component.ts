@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 import { FooterComponent } from '../../layout/footer/footer.component';
 
 
@@ -8,7 +9,7 @@ import { FooterComponent } from '../../layout/footer/footer.component';
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule, FooterComponent],
+  imports: [CommonModule, FooterComponent, TranslateModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

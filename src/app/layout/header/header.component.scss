@@ -146,3 +146,32 @@
     }
   }
 }
+
+/* Flag image inside dropdown */
+.img-w31 {
+  width: 31px;
+  height: auto;
+  border-radius: 3px;
+  object-fit: cover;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Align flag and text nicely */
+.langDropdown .dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+/* Optional: hover effect */
+.langDropdown .dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Flag inside the toggle button */
+.btn[dropdownToggle] .img-w31 {
+  margin-right: 6px;
+}

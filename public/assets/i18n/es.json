@@ -1,0 +1,86 @@
+{
+  "HEADING_HOME": "Inicio",
+  "HEADING_ABOUT": "Acerca de",
+  "HEADING_TOKENOMICS": "Tokenómica",
+  "HEADING_ROADMAP": "Hoja de ruta",
+  "HEADING_WHITEPAPER": "Documento técnico",
+  "HEADING_BUY": "Comprar LUCK888",
+  "BANNER": {
+    "TITLE": "#LAKSHMI1888 Criptomoneda",
+    "DESCRIPTION": "Experimente las bendiciones de la prosperidad y el crecimiento espiritual con $LUCK888, inspirado en la diosa Lakshmi. Desbloquee la riqueza material y la prosperidad interior con Lakshmi Crypto Coin, el token inspirado en valores atemporales y crecimiento con propósito.",
+    "CONTRACT_LABEL": "Dirección del contrato del token $ LUCK888"
+  },
+  "TOKEN_LISTING": {
+    "TITLE": "Listado de tokens",
+    "MESSAGE": "El token se incluirá en USZ Exchange el 16 de octubre"
+  },
+  "ABOUT": {
+    "SECTION_TITLE": "ACERCA DE LUCK888",
+    "FEATURES_TITLE": "Características innovadoras",
+    "DESCRIPTION": "Experimente las bendiciones de la prosperidad y el crecimiento espiritual con LUCK888, inspirado en la diosa Lakshmi. ¡Desbloquee la riqueza material y la prosperidad interior con Lakshmi Token!",
+    "BOTTOM_TEXT": "Equipado con una funcionalidad mejorada, $LUCK888 proporciona a los inversores algo más que la emoción",
+    "FEATURES": {
+      "SECURITY": "Seguro y protección",
+      "BLOCKCHAIN": "Plataforma Blockchain",
+      "FEES": "Tarifas bajas",
+      "USABILITY": "Fácil de usar"
+    }
+  },
+  "TOKENOMICS": {
+    "TITLE": "TOKENOMICS y Distribución de tokens",
+    "SUBTITLE": "Detalles del token",
+    "CONTRACT_LABEL": "Dirección del contrato del token $ LUCK888",
+    "DISTRIBUTION": {
+      "PRESALE": "Preventa Post Venta",
+      "CREATOR": "Creador",
+      "STAKING": "Apuestas",
+      "LIQUIDITY": "Liquidez",
+      "CHARITY": "Caridad"
+    },
+    "DETAILS": {
+      "NAME": "Nombre del token",
+      "SYMBOL": "Símbolo del token",
+      "SUPPLY": "Suministro de tokens",
+      "NETWORK": "Red"
+    }
+  },
+  "ROADMAP": {
+    "TITLE": "Hoja de ruta",
+    "DESCRIPTION": "Iniciando el sitio web, fomentando la participación de la comunidad, integrando la utilidad del token, cotizando en intercambios, ampliando las asociaciones y promoviendo la adopción global.",
+    "PHASES": {
+      "PHASE1": {
+        "TITLE": "Fundación y lanzamiento de tokens",
+        "POINTS": [
+          "Finalizar el diseño del proyecto, el documento técnico y la tokenómica.",
+          "Lakshmi Crypto Coin ($LUCK) en vivo en BNB Chain. Establecer asociaciones estratégicas con comunidades espirituales y organizaciones benéficas."
+        ]
+      },
+      "PHASE2": {
+        "TITLE": "Lanzamiento de la plataforma y versión beta del juego",
+        "POINTS": [
+          "Lanzar la plataforma Divine Tokens con funcionalidades básicas.",
+          "Lanzar la versión beta del juego play-to-earn (P2E) con $LUCK.",
+          "Incluir contenido educativo y narraciones devocionales a través de un juego interactivo."
+        ]
+      },
+      "PHASE3": {
+        "TITLE": "Expansión del ecosistema y deidades adicionales",
+        "POINTS": [
+          "Implementar otros tokens divinos.",
+          "Integrar estos tokens en el ecosistema para una mayor participación espiritual.",
+          "Introducir funciones NFT avanzadas y actualizaciones de personajes en el juego."
+        ]
+      }
+    }
+  },
+  "WHITEPAPER": {
+    "TITLE": "Documento técnico",
+    "DOWNLOAD": "Descargar documento técnico"
+  },
+  "COMMUNITY": {
+    "MISSION": "Misión del token LUCK888",
+    "JOIN": "Únete a la comunidad LUCK888",
+    "DESCRIPTION": "La Lakshmi Crypto Coin ($LUCK888) es la piedra angular del ecosistema Divine Tokens, que representa tanto la abundancia espiritual como el empoderamiento financiero. Permite transacciones sin problemas al tiempo que une la fe y las finanzas."
+  },
+  "BUY": "Comprar LUCK888"
+}

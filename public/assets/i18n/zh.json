@@ -1,0 +1,86 @@
+{
+  "HEADING_HOME": "首页",
+  "HEADING_ABOUT": "关于我们",
+  "HEADING_TOKENOMICS": "代币经济学",
+  "HEADING_ROADMAP": "路线图",
+  "HEADING_WHITEPAPER": "白皮书",
+  "HEADING_BUY": "购买 LUCK888",
+  "BANNER": {
+    "TITLE": "#LAKSHMI1888 加密货币",
+    "DESCRIPTION": "体验财富与精神成长的祝福，$LUCK888 以女神拉克什米为灵感。解锁物质财富与内在繁荣，Lakshmi 加密货币——以永恒价值和有意义的增长为灵感的代币。",
+    "CONTRACT_LABEL": "$ LUCK888 代币合约地址"
+  },
+  "TOKEN_LISTING": {
+    "TITLE": "代币上市",
+    "MESSAGE": "代币将于 10 月 16 日在 USZ 交易所上市"
+  },
+  "ABOUT": {
+    "SECTION_TITLE": "关于 LUCK888",
+    "FEATURES_TITLE": "创新特点",
+    "DESCRIPTION": "体验财富与精神成长的祝福，LUCK888 以女神拉克什米为灵感。解锁物质财富与内在繁荣，Lakshmi 代币！",
+    "BOTTOM_TEXT": "配备增强功能，$LUCK888 为投资者提供的不仅仅是兴奋",
+    "FEATURES": {
+      "SECURITY": "安全性",
+      "BLOCKCHAIN": "区块链平台",
+      "FEES": "低费用",
+      "USABILITY": "易于使用"
+    }
+  },
+  "TOKENOMICS": {
+    "TITLE": "代币经济学与代币分配",
+    "SUBTITLE": "代币详情",
+    "CONTRACT_LABEL": "$ LUCK888 代币合约地址",
+    "DISTRIBUTION": {
+      "PRESALE": "预售后销售",
+      "CREATOR": "创始人",
+      "STAKING": "质押",
+      "LIQUIDITY": "流动性",
+      "CHARITY": "慈善"
+    },
+    "DETAILS": {
+      "NAME": "代币名称",
+      "SYMBOL": "代币符号",
+      "SUPPLY": "代币供应量",
+      "NETWORK": "网络"
+    }
+  },
+  "ROADMAP": {
+    "TITLE": "路线图",
+    "DESCRIPTION": "启动网站，促进社区参与，整合代币实用性，上架交易所，拓展合作伙伴关系，促进全球采用。",
+    "PHASES": {
+      "PHASE1": {
+        "TITLE": "基础与代币发布",
+        "POINTS": [
+          "完成项目设计、白皮书和代币经济学。",
+          "Lakshmi 加密货币（$LUCK）在 BNB 链上线。与精神社区和慈善组织建立战略合作伙伴关系。"
+        ]
+      },
+      "PHASE2": {
+        "TITLE": "平台发布与游戏测试版",
+        "POINTS": [
+          "发布 Divine Tokens 平台，提供核心功能。",
+          "推出以 $LUCK 为特色的游戏测试版。",
+          "通过互动游戏包含教育内容和奉献故事。"
+        ]
+      },
+      "PHASE3": {
+        "TITLE": "生态系统扩展与其他神祇",
+        "POINTS": [
+          "推出其他神圣代币。",
+          "将这些代币整合到生态系统中，以增强精神参与。",
+          "引入高级 NFT 功能和游戏内角色升级。"
+        ]
+      }
+    }
+  },
+  "WHITEPAPER": {
+    "TITLE": "白皮书",
+    "DOWNLOAD": "下载白皮书"
+  },
+  "COMMUNITY": {
+    "MISSION": "LUCK888 代币使命",
+    "JOIN": "加入 LUCK888 社区",
+    "DESCRIPTION": "Lakshmi 加密货币（$LUCK888）是 Divine Tokens 生态系统的基石，代表着精神丰盈和财务赋能。它无缝地实现交易，同时架起信仰与金融之间的桥梁。"
+  },
+  "BUY": "购买 LUCK888"
+}

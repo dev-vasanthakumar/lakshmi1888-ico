@@ -4,39 +4,28 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
-            <h1 class="bannerTitle">#LAKSHMI1888 Crypto Coin</h1>
+            <h1 class="bannerTitle">{{ 'BANNER.TITLE' | translate }}</h1>
             <p class="bannerTxt">
-              Experience the blessings of prosperity and spiritual growth with
-              $LUCK888, inspired by Goddess Lakshmi. Unlock both material wealth
-              and inner prosperity with Lakshmi Crypto Coin – the token inspired
-              by timeless values and purposeful growth.
+              {{ 'BANNER.DESCRIPTION' | translate }}
             </p>
             <div class="mb32">
               <button class="btn btn-primary rounded-pill btn-h55 fs-20 fw-700">
-                Buy LUCK888
+                {{ 'BUY' | translate }}
               </button>
             </div>
             <div>
-              <div class="addressTxt">$ LUCK888 Token Contract address</div>
+              <div class="addressTxt">{{ 'BANNER.CONTRACT_LABEL' | translate }}</div>
               <div class="addressBx">
                 <span>0x8FF69C3Ca3948B137ec2cE836543aE2b356bD0AD</span>
-                <button class="btn btnEmpty">
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                <button class="btn btnEmpty" aria-label="Copy contract address">
+                  <!-- SVG remains unchanged -->
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path
                       d="M16 12.9V17.1C16 20.6 14.6 22 11.1 22H6.9C3.4 22 2 20.6 2 17.1V12.9C2 9.4 3.4 8 6.9 8H11.1C14.6 8 16 9.4 16 12.9Z"
-                      fill="#CF4C82"
-                    />
-                    <path
-                      opacity="0.4"
+                      fill="#CF4C82" />
+                    <path opacity="0.4"
                       d="M17.1 2H12.9C9.45001 2 8.05001 3.37 8.01001 6.75H11.1C15.3 6.75 17.25 8.7 17.25 12.9V15.99C20.63 15.95 22 14.55 22 11.1V6.9C22 3.4 20.6 2 17.1 2Z"
-                      fill="#CF4C82"
-                    />
+                      fill="#CF4C82" />
                   </svg>
                 </button>
               </div>
@@ -47,14 +36,8 @@
           <div class="col-lg-auto">
             <div class="tokenListBx">
               <div class="tokenlistTxt d-flex-start justify-content-end g-12">
-                <img
-                  src="assets/images/home/article-hover.gif"
-                  alt="icon"
-                  class="img-fluid"
-                  width="26"
-                  height="26"
-                />
-                <span>Token Listing</span>
+                <img src="assets/images/home/article-hover.gif" alt="icon" class="img-fluid" width="26" height="26" />
+                <span>{{ 'TOKEN_LISTING.TITLE' | translate }}</span>
               </div>
               <div>
                 <!-- <img
@@ -62,17 +45,10 @@
                   alt="tokencenterlogo"
                   class="centerLogo"
                 /> -->
-                <img
-                  src="assets/images/logo-lg.svg"
-                  alt="tokencenterlogo"
-                  class="centerLogo"
-                  width="180"
-                  height="180"
-                />
+                <img src="assets/images/logo-lg.svg" alt="tokencenterlogo" class="centerLogo" width="180"
+                  height="180" />
               </div>
-              <div class="tokenlistParaTxt">
-                Token Will be listing USZ Exchange at October 16th
-              </div>
+              <div class="tokenlistParaTxt">{{ 'TOKEN_LISTING.MESSAGE' | translate }}</div>
             </div>
           </div>
         </div>
@@ -85,13 +61,9 @@
       <div class="row justify-content-center">
         <div class="col-lg-7">
           <div class="secTitle mb-4">
-            <h5>Innovative Features</h5>
-            <h2>ABOUT LUCK888</h2>
-            <p>
-              Experience the blessings of prosperity and spiritual growth with
-              LUCK888, inspired by Goddess Lakshmi. Unlock both material wealth
-              and inner prosperity with Lakshmi Token!
-            </p>
+            <h5>{{ 'ABOUT.FEATURES_TITLE' | translate }}</h5>
+            <h2>{{ 'ABOUT.SECTION_TITLE' | translate }}</h2>
+            <p>{{ 'ABOUT.DESCRIPTION' | translate }}</p>
           </div>
         </div>
       </div>
@@ -101,26 +73,17 @@
           <div class="col-lg-auto col-md-6 col-sm-6">
             <div class="aboutBx">
               <div class="icon">
-                <img
-                  src="assets/images/home/shield-security.svg"
-                  alt="icon"
-                  class="img-fluid"
-                />
+                <img src="assets/images/home/shield-security.svg" alt="icon" class="img-fluid" />
               </div>
-              <h3>Safe & Security</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+              <h3>{{ 'ABOUT.FEATURES.SECURITY' | translate }}</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
               </p>
             </div>
             <div class="aboutBx">
               <div class="icon">
-                <img
-                  src="assets/images/home/box.svg"
-                  alt="icon"
-                  class="img-fluid"
-                />
+                <img src="assets/images/home/box.svg" alt="icon" class="img-fluid" />
               </div>
-              <h3>Blockchain Platform</h3>
+              <h3>{{ 'ABOUT.FEATURES.BLOCKCHAIN' | translate }}</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
               </p>
@@ -129,26 +92,18 @@
           <div class="col-lg-auto col-md-6 col-sm-6">
             <div class="aboutBx">
               <div class="icon">
-                <img
-                  src="assets/images/home/tag-2.svg"
-                  alt="icon"
-                  class="img-fluid"
-                />
+                <img src="assets/images/home/tag-2.svg" alt="icon" class="img-fluid" />
               </div>
-              <h3>Low Fees</h3>
+              <h3>{{ 'ABOUT.FEATURES.FEES' | translate }}</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
               </p>
             </div>
             <div class="aboutBx">
               <div class="icon">
-                <img
-                  src="assets/images/home/layer.svg"
-                  alt="icon"
-                  class="img-fluid"
-                />
+                <img src="assets/images/home/layer.svg" alt="icon" class="img-fluid" />
               </div>
-              <h3>Easy to use</h3>
+              <h3>{{ 'ABOUT.FEATURES.USABILITY' | translate }}</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
               </p>
@@ -160,10 +115,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-10">
           <div class="aboutBtmBx">
-            <p>
-              Equipped with enhanced functionality, $LUCK888 provides investors
-              with more than merely the excitement
-            </p>
+            <p>{{ 'ABOUT.BOTTOM_TEXT' | translate }}</p>
           </div>
         </div>
       </div>
@@ -175,8 +127,8 @@
       <div class="row justify-content-center">
         <div class="col-lg-5">
           <div class="secTitle mb-4 text-center">
-            <h2 class="text-uppercase">TOKENOMICS & Token&nbsp;Distribution</h2>
-            <p>Token Details</p>
+            <h2 class="text-uppercase">{{ 'TOKENOMICS.TITLE' | translate }}</h2>
+            <p>{{ 'TOKENOMICS.SUBTITLE' | translate }}</p>
           </div>
         </div>
       </div>
@@ -184,11 +136,7 @@
         <div class="col-lg-6">
           <div class="text-center">
             <div class="tokenomicsGraphCircle">
-              <img
-                src="assets/images/home/tokenomicsGraph.svg"
-                alt="tokenomicsGraph"
-                class="img-fluid"
-              />
+              <img src="assets/images/home/tokenomicsGraph.svg" alt="tokenomicsGraph" class="img-fluid" />
             </div>
           </div>
           <div class="tokenomicsLeftBx mb-4 mb-lg-0">
@@ -284,12 +232,8 @@
       <div class="row justify-content-center">
         <div class="col-lg-7">
           <div class="secTitle">
-            <h2>Road Map</h2>
-            <p>
-              Initiating the website, fostering community involvement,
-              integrating token utility, listing on exchanges, broadening
-              partnerships, and promoting global adoption.
-            </p>
+            <h2>{{ 'ROADMAP.TITLE' | translate }}</h2>
+            <p>{{ 'ROADMAP.DESCRIPTION' | translate }}</p>
           </div>
         </div>
       </div>
@@ -305,11 +249,7 @@
                     Token Launch
                   </div>
                   <div class="rmPhaseImg">
-                    <img
-                      src="assets/images/home/rmImg1.png"
-                      alt="rmImg"
-                      class="img-fluid"
-                    />
+                    <img src="assets/images/home/rmImg1.png" alt="rmImg" class="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -349,11 +289,7 @@
               <div class="col-lg-6 order-1 order-lg-2">
                 <div class="rm2">
                   <div class="rmPhaseImg">
-                    <img
-                      src="assets/images/home/rmImg2.png"
-                      alt="rmImg"
-                      class="img-fluid"
-                    />
+                    <img src="assets/images/home/rmImg2.png" alt="rmImg" class="img-fluid" />
                   </div>
                   <div class="rmPhaseTit">
                     <span>Phase: 2</span>
@@ -371,11 +307,7 @@
                     Additional Deities
                   </div>
                   <div class="rmPhaseImg">
-                    <img
-                      src="assets/images/home/rmImg3.png"
-                      alt="rmImg"
-                      class="img-fluid"
-                    />
+                    <img src="assets/images/home/rmImg3.png" alt="rmImg" class="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -406,17 +338,17 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
-                <div class="whitepaperBx">
-                  <div class="secTitle text-center">
-                    <h2 class="fs-36">Whitepaper</h2>
-                  </div>
-                  <div class="text-center">
-                    <button class="btn btnEmpty btnIconTxt">
-                      <img src="assets/images/home/document-download.svg" alt="doc-download" class="img-fluid" />
-                      <span class="fs-20 fw-500">Download Whitepaper</span>
-                    </button>
-                  </div>
-                </div>
+            <div class="whitepaperBx">
+              <div class="secTitle text-center">
+                <h2 class="fs-36">{{ 'WHITEPAPER.TITLE' | translate }}</h2>
+              </div>
+              <div class="text-center">
+                <button class="btn btnEmpty btnIconTxt">
+                  <img src="assets/images/home/document-download.svg" alt="doc-download" class="img-fluid" />
+                  <span class="fs-20 fw-500">{{ 'WHITEPAPER.DOWNLOAD' | translate }}</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -425,24 +357,22 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
-              <div class="secTitle">
-                <h5 class="fs-23">Mission of LUCK888 Token</h5>
-                <h2>Join the LUCK888 Community</h2>
+            <div class="secTitle">
+              <h5 class="fs-23">{{ 'COMMUNITY.MISSION' | translate }}</h5>
+              <h2>{{ 'COMMUNITY.JOIN' | translate }}</h2>
 
-                <div class="socialMediaLinks">
-                  <a href=""><img src="assets/images/home/socialmedia/instagram.png" alt="instagram" /></a>
-                  <a href=""><img src="assets/images/home/socialmedia/reddit.png" alt="reddit" /></a>
-                  <a href=""><img src="assets/images/home/socialmedia/discord.png" alt="discord" /></a>
-                  <a href=""><img src="assets/images/home/socialmedia/medium.png" alt="medium" /></a>
-                  <a href=""><img src="assets/images/home/socialmedia/github.png" alt="github" /></a>
-                </div>
-
-                <p class="mb40">
-                  The Lakshmi Crypto Coin ($LUCK888) is the cornerstone of the Divine Tokens ecosystem,
-representing both spiritual abundance and financial empowerment. It seamlessly
-enables transactions while bridging faith and finance.
-                </p>
+              <div class="socialMediaLinks">
+                <a href=""><img src="assets/images/home/socialmedia/instagram.png" alt="instagram" /></a>
+                <a href=""><img src="assets/images/home/socialmedia/reddit.png" alt="reddit" /></a>
+                <a href=""><img src="assets/images/home/socialmedia/discord.png" alt="discord" /></a>
+                <a href=""><img src="assets/images/home/socialmedia/medium.png" alt="medium" /></a>
+                <a href=""><img src="assets/images/home/socialmedia/github.png" alt="github" /></a>
               </div>
+
+              <p class="mb40">
+                {{ 'COMMUNITY.DESCRIPTION' | translate }}
+              </p>
+            </div>
           </div>
         </div>
       </div>
